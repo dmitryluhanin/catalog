@@ -1,14 +1,11 @@
 class BookController < ApplicationController
-  def create
-    @book = Book.new
-  end
-
-  def edit
-    @book = Book.save
+  def new
   end
 
   def show
-    @book = Book.find_by(book.id: params[id])
+  end
+
+  def edit
   end
 
   def delete
